@@ -3,12 +3,12 @@
  new-instanceの偽装ページがクロワッサンのやつ。パスワードは ***90***, ***90m***, ***90分***  
 そのうち別の機能も追加する予定。
 
-## 機能など
-<a href="new-instance(yuki): https://github.com/LunaKamituki/new-instance">このリポジトリ</a>には、<a href="https://github.com/LunaKamituki/yuki-source"><ruby>機能を追加<rt>キーボードショートカットを追加</rt></ruby>するリポジトリ</a>と、<a href="https://github.com/LunaKamituki/yukiyoutube-inv-instances"><ruby>Invidiousのインスタンスを追加<rt>YouTubeを見る時のロード時間を減らす</rt></ruby>するリポジトリ</a>が使われています。
+## 機能など  
+<a href="new-instance(yuki): https://github.com/LunaKamituki/new-instance">このリポジトリ</a>には、<a href="https://github.com/LunaKamituki/yuki-source"><ruby>機能を追加<rt>キーボードショートカットを追加</rt></ruby>するリポジトリ</a>と、<a href="https://github.com/LunaKamituki/yukiyoutube-inv-instances"><ruby>Invidiousのインスタンスを追加<rt>YouTubeを見る時のロード時間を減らす</rt></ruby>するリポジトリ</a>が使われている。
 
-ご自身のリポジトリに、機能追加及びInvidious追加のリポジトリを追加するよりも、このリポジトリをdeployした方が楽。
+ご自身のリポジトリに、機能追加及びInvidious追加のリポジトリを追加するよりも、このリポジトリをデプロイした方が楽。
 
-## Deploy / デプロイ
+## デプロイ  
 <a href="https://render.com/deploy?repo=https://github.com/OCxeRu-2951/Yuki-croissant.git">
  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"><br>
 </a>
