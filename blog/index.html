@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>創世記</title>
+        <title>クロワッサンのレシピ</title>
         <style>
             body {
                 margin: 0 auto;
@@ -11,7 +11,7 @@
             nav {
                 width: 100%;
                 height: 70px;
-                background-color: dimgray;
+                background-color: lightyellow;
                 padding-top: 5px;
                 box-sizing: border-box;
             }
@@ -40,7 +40,7 @@
         <script>
             function checkAnswer(){
                 sha256(document.getElementById('user_answer').value).then((hash) => {
-                    if(hash === 'b4003030a618a54e83c92ac29756ea2ff0cedb7b06c0cdd5433e9eb0688194a9') {
+                    if(hash === '596c79e54a5642e9f48da24d8dd4b47ff23c4a72cf64e70e89c65b57c28e4f16') {
                         document.getElementById('result').textContent = '正解';
                         document.cookie = 'yuki=True; path=/';
                         location.replace('/')
@@ -56,23 +56,41 @@
         <header>
             <nav>
                 <ul>
-                    <li style="color: white;">旧約聖書 創世記</li>
+                    <li style="color: white;">クロワッサンレシピ</li>
                 </ul>
             </nav>
         </header>
             
         <main>
-            <h1>創世記 - 旧約聖書より</h1>
-            <p>はじめに神は天と地とを創造された。</p>
-            <p>地は形なく、虚しく、闇が淵のおもてにあり、神の霊が水の<ruby>面<rp>(</rp><rt>おもて</rt><rp>)</rp></ruby>を覆っていた。</p>
-            <p>神は「光あれ」と言われた。すると光があった。</p>
-            <p>神はその光を見て、良しとされた。神はその光と闇とを分けられた。</p>
-            <p>神は光を昼と名づけ、闇を夜と名づけられた。夕となり、また朝となった。</p><br><br>
+           <h2>材料</h2>
+    <ul>
+        <li>強力粉 - 500g</li>
+        <li>砂糖 - 50g</li>
+        <li>塩 - 10g</li>
+        <li>牛乳 - 200ml</li>
+        <li>バター - 250g</li>
+        <li>ドライイースト - 10g</li>
+        <li>卵黄 - 1個（塗る用）</li>
+    </ul>
+
+    <h2>作り方</h2>
+    <ol>
+        <li>ボウルに強力粉、砂糖、塩、ドライイーストを入れて混ぜます。</li>
+        <li>牛乳を少しずつ加えながら生地をこね、滑らかになるまでこねます。</li>
+        <li>生地を冷蔵庫で30分休ませます。</li>
+        <li>冷えたバターを薄く伸ばし、生地に包みます。</li>
+        <li>生地を伸ばして折りたたむ工程を3回繰り返します（層を作る）。</li>
+        <li>冷蔵庫でさらに1時間休ませます。</li>
+        <li>生地を三角形にカットし、巻いてクロワッサンの形にします。</li>
+        <li>天板に並べて20分発酵させます。</li>
+        <li>卵黄を塗り、200℃のオーブンで15～20分焼きます。</li>
+        <li>焼きたてのクロワッサンを楽しみましょう！</li>
+    </ol>
         </main>
 
         <footer>
-            <input id="user_answer" type="text" placeholder="創世記はどこに載っていますか？" style="width: 155px;">
-            <button onclick="checkAnswer()">確かめる</button>
+            <input id="user_answer" type="text" placeholder="計何分休ませることになる？(分まで書いてね)" style="width: 155px;">
+            <button onclick="checkAnswer()">Check!</button>
             <p id="result"></p>
         </footer>
     </body>
