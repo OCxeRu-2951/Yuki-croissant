@@ -1,6 +1,6 @@
- # Yuki-Croissan  
+ # Yuki-Croissan oldfakepage  
 
- new-instanceの偽装ページがクロワッサンのやつ。パスワードは「 ***90***, ***90m***, ***90分*** 」のどれでも。  
+ new-instanceの偽装ページがクロワッサンの旧のやつ。パスワードは「 ***70***, ***70g***,  」のいずれかどれでも。  
 そのうち別の機能も追加する予定。
 
 ## 機能など  
@@ -16,5 +16,5 @@
   <img src="https://vercel.com/button" alt="Deploy to Vercel">
 </a>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=https://github.com/OCxeRu-2951/Yuki-croissant&branch=main&name=yukicroissant)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=https://github.com/OCxeRu-2951/Yuki-croissant&branch=oldfakepage&name=oldyukicroissant)
 <br>
