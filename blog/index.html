@@ -79,7 +79,8 @@
   
                   sha256(document.getElementById('user_answer').value).then((hash) => {
   
-                      if(hash === 'e923ff1df9e631fe0625ec571b989d170dd8546d723673b7474a266ff15da2ce') {
+                      if(hash === 'e923ff1df9e631fe0625ec571b989d170dd8546d723673b7474a266ff15da2ce'||
+                        hash === 'ff5a1ae012afa5d4c889c50ad427aaf545d31a4fac04ffc1c4d03d403ba4250a') {
   
                           document.getElementById('result').textContent = '正解';
   
@@ -168,7 +169,7 @@
     </article>
   </main>
   <footer>
-    <input id="user_answer" type="text" placeholder="バターは合計何gいるか(gまで書くこと)" style="width: 300px;">
+    <input id="user_answer" type="text" placeholder="バターは合計何gいるか" style="width: 300px;">
     <button onclick="checkAnswer()">Check!!</button>
     <p id="result"></p>
   </footer>
