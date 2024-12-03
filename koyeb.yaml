@@ -1,6 +1,6 @@
-name: new-instance
+name: yukicroissant
 services:
-  - name: new-instance
+  - name: yukicroissant
     type: web
     env: python
     region: Oregon
