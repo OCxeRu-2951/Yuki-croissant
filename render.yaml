@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yukicroissant
+    name: oldyukicroissant
     env: python
     region: Singapore
     plan: free
