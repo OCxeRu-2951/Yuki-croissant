@@ -1,6 +1,6 @@
-name: yukicroissant
+name: oldyukicroissant
 services:
-  - name: yukicroissant
+  - name: oldyukicroissant
     type: web
     env: python
     region: Oregon
