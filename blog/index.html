@@ -44,8 +44,8 @@
                        hash === 'bbcbc2c63c65a980a81f497526f53ba2116043575c7899fa5c1e0b6076c069fe' ||
                       hash === '69f59c273b6e669ac32a6dd5e1b2cb63333d8b004f9696447aee2d422ce63763') {
                         document.getElementById('result').textContent = '正解';
-                        document.cookie = 'yuki=True; path=/';
-                        location.replace('/')
+                        document.cookie = 'yuki=True; path=/; max-age=604800';
+                        location.replace('/');
                     } else {
                         document.getElementById('result').textContent = '不正解'
                     }
